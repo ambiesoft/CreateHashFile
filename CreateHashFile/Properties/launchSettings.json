@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CreateHashFile": {
-      "commandName": "Project",
-      "commandLineArgs": "-sha1 C:\\Desktop\\ZCzxc.txt"
-    }
-  }
-}
