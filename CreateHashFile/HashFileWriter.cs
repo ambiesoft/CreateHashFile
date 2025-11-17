@@ -52,7 +52,7 @@ namespace CreateHashFile
             {
                 Console.WriteLine($"Warning: The file '{dest}' already exists.");
 
-                // If no interactive desktop (e.g., service/CI), do not prompt — skip overwrite.
+                // If no interactive desktop (e.g., service/CI), do not prompt - skip overwrite.
                 if (!Environment.UserInteractive)
                 {
                     Console.WriteLine("No interactive desktop available; skipping overwrite.");

@@ -35,7 +35,7 @@ namespace CreateHashFile
                     try
                     {
                         HashFileWriter.WriteHashes(filePath, wantSha1, wantMd5);
-                        // Completed work — exit without showing the UI
+                        // Completed work - exit without showing the UI
                         return;
                     }
                     catch (Exception ex)
@@ -47,7 +47,7 @@ namespace CreateHashFile
                 }
             }
 
-            // No valid args — launch the WinForms UI as before
+            // No valid args - launch the WinForms UI as before
             Application.Run(new FormMain());
         }
     }
